@@ -19,7 +19,7 @@ This repository contains example mods for **[MoteMancer](https://store.steampowe
 ```
 4. Place both files into:
 ```
-Dependencies\
+Examples\Dependencies\
 ```
 ---
 
@@ -29,7 +29,7 @@ A mod consists of:
 
 - DLL – compiled mod code (e.g. IgnorePlaneBlock.dll)  
 - mod.json – metadata and configuration  
-- Icon.png (optional) – shown in-game  
+- Icon.png (optional) – shown in-game
 - preview.png (optional) – used for Steam Workshop  
 
 ---
@@ -149,6 +149,9 @@ My Documents\My Games\MoteMancer\Mods\IgnorePlaneBlock\
    - preview.png  
 
 5. Launch the game — the mod will appear in the Foundations menu  
+
+Check the log file for loading or runtime errors for your mod. 
+```%AppData%\LocalLow\CyanAvatar Studios\MoteMancer\Player.log```
 
 ---
 
