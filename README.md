@@ -163,7 +163,8 @@ Mods in My Documents can be uploaded directly from the game.
 
 - Upload button appears in the Foundations menu (Launching through Steam is required)  
 - First upload creates a new Workshop item  
-- Subsequent uploads updates existing item  
+- Subsequent uploads updates existing item
+- If you want to upload a library that other mods depend on. Use command line argument `-showModLibraries` and they will be uploadable from the foundations menu.
 
 ### Notes
 
