@@ -1,0 +1,7 @@
+/Examples/.idea
+/Examples/IgnorePlaneBlock/bin
+/Examples/IgnorePlaneBlock/obj
+/Examples/InfiniteReach/bin
+/Examples/InfiniteReach/obj
+Examples/Dependencies/Assembly-CSharp.dll
+Examples/Dependencies/UnityEngine.CoreModule.dll

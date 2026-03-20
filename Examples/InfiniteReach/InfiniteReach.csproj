@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net48</TargetFramework>
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Reference Include="Assembly-CSharp">
+            <HintPath>..\Dependencies\Assembly-CSharp.dll</HintPath>
+        </Reference>
+        <Reference Include="HarmonySupport">
+            <HintPath>..\Dependencies\HarmonySupport.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.CoreModule">
+            <HintPath>..\Dependencies\UnityEngine.CoreModule.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="HarmonyX" Version="2.16.0" />
+      <PackageReference Include="JetBrains.Annotations" Version="2025.2.4" />
+    </ItemGroup>
+
+</Project>

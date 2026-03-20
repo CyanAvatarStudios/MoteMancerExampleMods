@@ -1,0 +1,18 @@
+{
+  "id": "infinite_reach",
+  "name": "Infinite Reach",
+  "description": "Example mod that extends player reach to maximum distance.",
+  "entryType": "InfiniteReach",
+  "assembly": "InfiniteReach.dll",
+  "version": "1.0.0",
+  "isLibrary": false,
+  "dependencies": [
+    "harmony_support"
+  ],
+  "fileId": 0,
+  "tags": [
+    "Gameplay",
+    "Cheat",
+    "Example"
+  ]
+}

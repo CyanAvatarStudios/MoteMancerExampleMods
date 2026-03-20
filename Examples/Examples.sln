@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfiniteReach", "InfiniteReach\InfiniteReach.csproj", "{FDA6BAAA-FF79-4C2B-8343-70B04A401481}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IgnorePlaneBlock", "IgnorePlaneBlock\IgnorePlaneBlock.csproj", "{5D695C7A-F042-4C11-B01B-B284D4CB544D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDA6BAAA-FF79-4C2B-8343-70B04A401481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDA6BAAA-FF79-4C2B-8343-70B04A401481}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDA6BAAA-FF79-4C2B-8343-70B04A401481}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDA6BAAA-FF79-4C2B-8343-70B04A401481}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D695C7A-F042-4C11-B01B-B284D4CB544D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D695C7A-F042-4C11-B01B-B284D4CB544D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D695C7A-F042-4C11-B01B-B284D4CB544D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D695C7A-F042-4C11-B01B-B284D4CB544D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

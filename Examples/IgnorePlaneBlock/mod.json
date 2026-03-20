@@ -1,0 +1,18 @@
+{
+    "id": "ignore_plane_block",
+    "name": "Ignore Plane Blocking",
+    "description": "Example mod that allows structure building on opposing planes.",
+    "entryType": "IgnorePlaneBlock",
+    "assembly": "IgnorePlaneBlock.dll",
+    "version": "1.0.0",
+    "isLibrary": false,
+    "dependencies": [
+        "harmony_support"
+    ],
+    "fileId": 0,
+    "tags": [
+        "Gameplay",
+        "Cheat",
+        "Example"
+    ]
+}
