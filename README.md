@@ -1,17 +1,17 @@
 # MoteMancer Example Mods
 
-This repository contains example mods for **MoteMancer**, demonstrating how to create, structure, and publish mods.
+This repository contains example mods for **[MoteMancer](https://store.steampowered.com/app/3320980/MoteMancer/)** , demonstrating how to create, structure, and publish mods.
 
 ## Included Examples
-- **Infinite Reach** – \<link to steam workshop>
-- **Ignore Plane Blocking** – \<link to steam workshop>
+- **[Infinite Reach](todo)** 
+- **[Ignore Plane Blocking](todo)** 
 
 ---
 
 ## Setup
 
 1. Clone or download this repository  
-2. Install **MoteMancer** via Steam  
+2. Install **[MoteMancer](https://store.steampowered.com/app/3320980/MoteMancer/)** via Steam  
 3. Copy required game assemblies:
 ```
 <Steam Directory>\steamapps\common\MoteMancer\MoteMancer_Data\Managed\Assembly-CSharp.dll  
@@ -74,8 +74,8 @@ https://github.com/pardeike/Harmony
 
 You should not include Harmony yourself. Instead:
 
-- Add "harmony_support" as a dependency  
-- Subscribe to it on Steam Workshop \<todo link>
+- Add "harmony_support" as a dependency in the mod json file. 
+- Subscribe to [the mod](todo) on Steam Workshop
 
 This prevents version conflicts between mods.
 
@@ -91,6 +91,8 @@ This prevents version conflicts between mods.
     }
 ```
 ---
+This patch overrides `StructureUtils.BlockOpposingPlaneBuilding` to always return false. 
+
 
 ## Configuration (mod.json)
 
@@ -156,16 +158,16 @@ Mods in My Documents can be uploaded directly from the game.
 
 ### Behavior
 
-- Upload button appears in the Foundations menu (Steam required)  
-- First upload → creates a new Workshop item  
-- Subsequent uploads → update existing item  
+- Upload button appears in the Foundations menu (Launching through Steam is required)  
+- First upload creates a new Workshop item  
+- Subsequent uploads updates existing item  
 
 ### Notes
 
 - Uploading will overwrite:
   - description  
   - preview image  
-- Use the Steam Workshop website for additional customization  
+- Use the Steam Workshop website for additional customization and publishing your mod. 
 
 ---
 
