@@ -54,16 +54,14 @@ Every mod must define an entry class:
         }
     }
 ```
-### Requirements
-
 - OnEnable(Dictionary<string, object>) is required  
 - OnDisable() is required  
 - Missing either will prevent the mod from loading  
 
 ### Lifecycle
 
-- OnEnable → called when a game with the mod is loaded  
-- OnDisable → called when the mod is unloaded or the session ends  
+- OnEnable is called when a game with the mod is loaded  
+- OnDisable is called when the mod is unloaded or the session ends  
 
 ---
 
@@ -125,7 +123,7 @@ Each mod requires a `mod.json` file:
 - assembly – DLL filename  
 - entryType – Entry class  
 - version – Mod version  
-- dependencies – Required mods  
+- dependencies – Required mod libaries
 - isLibrary – Hidden dependency-only mod  
 - fileId – Workshop ID (0 = new upload)  
 - tags – Workshop tags  
@@ -148,10 +146,12 @@ My Documents\My Games\MoteMancer\Mods\IgnorePlaneBlock\
    - Icon.png  
    - preview.png  
 
-5. Launch the game — the mod will appear in the Foundations menu  
+5. Launch the game. The mod will appear in the Foundations menu  
 
 Check the log file for loading or runtime errors for your mod. 
-```%AppData%\LocalLow\CyanAvatar Studios\MoteMancer\Player.log```
+```
+%AppData%\LocalLow\CyanAvatar Studios\MoteMancer\Player.log
+```
 
 ---
 
