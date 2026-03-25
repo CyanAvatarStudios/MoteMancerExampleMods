@@ -1,0 +1,19 @@
+{
+    "id": "no_chasms",
+    "name": "No Chasms",
+    "description": "Removes Chasms from all planes.\n\nExample Mod reference from CyanAvatar Studios:\nhttps://github.com/CyanAvatarStudios/MoteMancerExampleMods",
+    "entryType": "NoChasms",
+    "assembly": "NoChasms.dll",
+    "version": "1.0.0",
+    "isLibrary": false,
+    "dependencies": [],
+    "fileId": 3690945809,
+    "tags": [
+        "Gameplay",
+        "Cheat",
+        "Example"
+    ],
+    "difficulty": [
+        0, -1, 0, 0, 0, 0
+    ]
+}

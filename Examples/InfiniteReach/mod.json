@@ -1,0 +1,21 @@
+{
+    "id": "infinite_reach",
+    "name": "Infinite Reach",
+    "description": "Extends player reach to maximum distance.\n\nExample Mod reference from CyanAvatar Studios:\nhttps://github.com/CyanAvatarStudios/MoteMancerExampleMods",
+    "entryType": "InfiniteReach",
+    "assembly": "InfiniteReach.dll",
+    "version": "1.0.0",
+    "isLibrary": false,
+    "dependencies": [
+        "harmony_support"
+    ],
+    "fileId": 3690921373,
+    "tags": [
+        "Gameplay",
+        "Cheat",
+        "Example"
+    ],
+    "difficulty": [
+        0, -1, 0, 0, 0, 0
+    ]
+}

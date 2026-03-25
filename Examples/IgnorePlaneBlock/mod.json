@@ -1,0 +1,21 @@
+{
+    "id": "ignore_plane_block",
+    "name": "Ignore Plane Blocking",
+    "description": "Allows structure building on opposing planes.\n\nExample Mod reference from CyanAvatar Studios:\nhttps://github.com/CyanAvatarStudios/MoteMancerExampleMods",
+    "entryType": "IgnorePlaneBlock",
+    "assembly": "IgnorePlaneBlock.dll",
+    "version": "1.0.0",
+    "isLibrary": false,
+    "dependencies": [
+        "harmony_support"
+    ],
+    "fileId": 3690921326,
+    "tags": [
+        "Gameplay",
+        "Cheat",
+        "Example"
+    ],
+    "difficulty": [
+        0, -1, -1, -1, 0, 0
+    ]
+}
